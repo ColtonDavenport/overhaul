@@ -1,0 +1,246 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding:0;
+	margin:0;
+	color: #51513C;
+	background-color: #1E90FF; /*** ~ dodgerblue */
+}
+
+ul {
+	list-style-type: none;
+}
+
+/***
+	Nav Bar
+**/
+
+
+.topnav {
+	background-color: #FFC907;
+	border-right:1px solid #999;
+	margin:0 auto;
+	margin-bottom:10px;
+	height:40px;
+	list-style:none;
+}
+.topnav li {
+	display:inline-block;
+	border-left:1px solid #999;
+	color: #008040;
+	font-weight: bold;
+	float:left;
+	width:149px;
+	list-style:none;
+}
+.topnav a {
+  color:#51513C;
+  display:block;
+  line-height:40px;
+  text-align:center;
+}
+.topnav a:hover {
+	background:#e3e3e3;
+	color:#555;
+}
+.topnav .active {
+	background:#e3e3e3;
+	color:#777;
+}
+
+/**
+	Content
+**/
+.content {
+	clear:both;
+	display: block;
+	width: 100%;
+}
+
+
+
+#browsebar, #center, #cartbar {
+	float: left;
+	background-color: #FFC907; /*** ~ goldenrod */
+	margin-left: .9%;
+	margin-right: .9%;
+	box-sizing: border-box;
+	display:inline-block;
+	min-height: 100vh;
+	margin-bottom: 1em;
+}
+#browsebar, #cartbar {
+	height: 100%;
+}
+
+/**
+	Browse Bars
+**/
+#browsebar {
+	width: 18%;
+	overflow: hidden;
+}
+
+#browsebar img {
+	width: 100%;
+}
+
+#browsebar li {
+	text-align:center;
+	margin:1em;
+	border: 2px solid #51513C;
+	border-radius: 5px;
+}
+#browsebar div.browse-head {
+	cursor: pointer;
+	border: none;
+}
+#browsebar .browse-head::selection {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#browsebar table {
+	border-top: 2px solid #51513C;
+	border-radius: 5px;
+}
+#browsebar table {
+	
+	padding-left:1em;
+	table-layout: fixed;
+	width: 100%;
+
+}
+#categories {
+	max-height: 10em;
+	overflow-y:auto;
+}
+#browsebar label {
+	overflow:hidden;
+	width: 3em;
+}
+#browsebar td {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+.centering-wrap {
+	text-align: center;
+}
+#browsebar button {
+	
+}
+
+/**
+	Center
+**/
+#center {
+	width: 70%;
+}
+
+
+/**
+	Books
+	
+**/
+
+.book, .book img, .book table, .book td{
+	height:300px;
+	max-height:300px;
+}
+.book img{
+	height:300px;
+	max-height:300px;
+	width:200px;
+	max-width:200px;
+
+
+}
+.book {
+	display: inline-block;
+	margin-left: 2.5%;
+	margin-top: 5px;
+	width: 35%;
+	min-width:30em;
+	cursor: pointer;
+	
+}
+.book table {
+	box-sizing:border-box;
+    table-layout: auto;
+    width: 100%;
+	border-spacing:0px;
+}
+.book-info {
+	box-sizing:border-box;
+	width: 100%;
+	padding: 0 1em;
+	position:relative;
+	border-top:2px solid #51513C;
+	border-right:2px solid #51513C;
+	border-bottom:2px solid #51513C;
+	border-radius: 0 5px 5px 0;
+}
+.book td div {
+	position: absolute;
+	bottom:1em;
+	left: 20%;
+}
+.book-price {
+	font-size:1em;
+	text-align:center;
+}
+.book input {
+	position: relative;
+	z-index:2;
+	width: 2em;
+}
+.book-expand {
+	display:none;
+}
+
+/**
+	Admin Page
+**/
+.inputContainer{
+	vertical-align: top;
+	display: block;
+	border-radius: 10px;
+	border: 1px solid #333333;
+	margin-bottom: 40px;
+	background: #FFC907;
+	color: #515151;
+	padding: 1em;
+}
+.inputContainer label{
+	margin-bottom: 1em;
+}
+
+/**
+	Cart Bar
+**/
+#cartbar {
+	width:18%;
+	text-align:center;
+}
+#cartbar ul {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+
+/**
+	Footer
+**/
+footer {
+	display: block;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	background-color: #FFC907;
+}

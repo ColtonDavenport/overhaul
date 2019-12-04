@@ -1,0 +1,7 @@
+James, Hufnagel
+2019/Apr/12
+address
+S3S3S3
+Days By Moon Light, Quantity: 1, Price: $19.95, Subtotal: $19.95
+Fifteen Dogs, Quantity: 3, Price: $19.95, Subtotal: $59.85
+Total: $79.80

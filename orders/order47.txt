@@ -1,0 +1,9 @@
+James, Hufnagel
+2019/Apr/12
+address
+S3S3S3
+Days By Moon Light, Quantity: 4, Price: $19.95, Subtotal: $79.80
+Fifteen Dogs, Quantity: 6, Price: $19.95, Subtotal: $119.70
+The Quintland Sisters, Quantity: 1, Price: $22.30, Subtotal: $22.30
+Where The Crawdads Sing, Quantity: 2, Price: $15.40, Subtotal: $30.80
+Total: $252.60

@@ -1,0 +1,7 @@
+James, Hufnagel
+2019/Apr/12
+address
+S3S3S3
+, Quantity: 1.00, Price: $19.95, Subtotal: $19.95
+, Quantity: 2.00, Price: $22.30, Subtotal: $44.60
+Total: $64.55

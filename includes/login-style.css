@@ -1,0 +1,28 @@
+.login-panel {
+	box-sizing:border-box;
+	width: 400px;
+	margin: 0 auto;
+	background-color: #FFC907;
+	color:#51513C;
+	padding:1em;
+}
+.login-panel h3 {
+	text-align: center;
+}
+.login-panel form {
+	display: block;
+	margin:1.2em auto;
+}
+.login-panel label {
+	font-size: 1.1em;
+}
+.login-panel .submit-button {
+	padding: .3em .4em .5em;
+}
+.login-panel a {
+	color: #62624D;
+}
+.login-panel table{
+	width: 75%;
+	margin: auto;
+}
